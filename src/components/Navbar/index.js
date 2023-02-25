@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <NavLink path="/" label="Home" exact={true} />
-            {/*<NavLink path="/features" label="Features" exact={true} />*/}
+            <NavLink path="/reports" label="Reports" exact={true} />
           </div>
         </div>
       </div>
